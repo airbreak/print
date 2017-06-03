@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.PrintArea.js"></script>  
+	<link rel="stylesheet" type="text/css" href="print.css" media="print"/>
+</head>
+<body>  
+     <div class="my-show">  
+	    <p id="name">好吃的餐厅</p>
+	    <p class="new-normal-txt"">餐位：201</p>
+
+
+		<table>
+	   		<tr class="new-normal-txt">
+	   			<td>菜名</td>
+	   			<td>数量</td>
+	   			<td>单价</td>
+	   			<td>金额</td>
+	   		</tr>
+	   		<tr>
+	   			<td colspan="4">---------------------------</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td>ice cream</td>
+	   			<td>2</td>
+	   			<td>5.00</td>
+	   			<td>10.00</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td>刀拍黄瓜</td>
+	   			<td>2</td>
+	   			<td>15.00</td>
+	   			<td>30.00</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td>招牌水煮鱼</td>
+	   			<td>1</td>
+	   			<td>55.00</td>
+	   			<td>55.00</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td>大碗手工面</td>
+	   			<td>1</td>
+	   			<td>15.00</td>
+	   			<td>15.00</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td>菠萝飞饼</td>
+	   			<td>1</td>
+	   			<td>18.00</td>
+	   			<td>18.00</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td>凉拌毛豆</td>
+	   			<td>1</td>
+	   			<td>20.00</td>
+	   			<td>20.00</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td>小碗手工酸奶</td>
+	   			<td>4</td>
+	   			<td>7.50</td>
+	   			<td>30.00</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td>油炸臭干子</td>
+	   			<td>1</td>
+	   			<td>15.00</td>
+	   			<td>15.00</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td>餐具</td>
+	   			<td>4</td>
+	   			<td>1.00</td>
+	   			<td>4.00</td>
+	   		</tr>
+	   		<tr>
+	   			<td colspan="4">---------------------------</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td colspan="3">合计</td>
+	   			<td>365.50</td>
+	   		</tr>
+	   	</table>
+
+	    <p class="new-normal-txt"">洪山区南湖大道666号</p>
+    </div>
+
+
+
+<!--  <div class="new-show">  
+	   	<table>
+	   		<tr class="new-normal-txt">
+	   			<td>name</td>
+	   			<td>num</td>
+	   			<td>price</td>
+	   			<td>total</td>
+	   		</tr>
+	   		<tr>
+	   			<td colspan="4">---------------------------</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td>ice cream</td>
+	   			<td>2</td>
+	   			<td>5</td>
+	   			<td>10</td>
+	   		</tr>
+	   		<tr>
+	   			<td colspan="4">---------------------------</td>
+	   		</tr>
+	   		<tr class="new-normal-txt">
+	   			<td colspan="3">小计</td>
+	   			<td>10</td>
+	   		</tr>
+	   	</table>
+    </div> -->
+
+
+    <a href="javascript:;" id="print" />打印</a>  
+  
+    <script type="text/javascript">  
+    $(document).ready(function() {  
+        $("#print").click(function() {  
+                $(".my-show").printArea()  
+                // $(".my_show").printArea()  
+            })  
+    });  
+    </script>
+</body>
+</html>

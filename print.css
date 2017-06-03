@@ -1,0 +1,37 @@
+*{
+	color: #000;
+	font-family: "Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif";
+}
+@page {
+		margin: 2cm 1cm;
+	}
+#name{
+	font-size: .5cm;
+}
+/*#aa{
+	font-size: 0.15cm;
+}
+
+.border-bottom-tr{
+	border-bottom: 1pt dashed #000;
+	padding: 5px 0;
+}
+.border-top-tr{
+	border-top: 1pt dashed #000;
+	padding: 5pt 0; 
+}
+.normal-txt{
+	font-size: 0.22cm;
+	height: 15pt;
+	height: 30px;
+}
+.min-class{
+	font-size: 0.1cm;
+}
+.big-class{
+	font-size: 0.5cm;
+}*/
+
+.new-normal-txt{
+	font-size: 2pt;
+}
